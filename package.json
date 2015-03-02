@@ -1,0 +1,35 @@
+{
+  "name": "clever",
+  "version": "0.0.0",
+  "description": "XMPP Chat for Android SMS Texting",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frenchie4111/clever.git"
+  },
+  "author": "Mike Lyons, big penis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frenchie4111/clever/issues"
+  },
+  "homepage": "https://github.com/frenchie4111/clever",
+  "dependencies": {
+    "ip": "^0.3.0",
+    "node-sha256": "^0.1.1",
+    "q": "^1.2.0",
+    "request": "^2.53.0",
+    "underscore": "^1.8.2",
+    "xmpp-chat-server": "*"
+  },
+  "window": {
+    "frame": false,
+    "width": 320,
+    "height": 402,
+    "show_in_taskbar": false,
+    "resizeable": false,
+    "toolbar": true
+  }
+}

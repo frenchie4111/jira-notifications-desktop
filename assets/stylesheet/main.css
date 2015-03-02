@@ -1,0 +1,32 @@
+body {
+    font-family: "mainfont", "Helvetica Neue", "HelveticaNeue", "Helvetica", "HelveticaLt", sans-serif;
+    background-image: url("../image/clever_background.png");
+}
+
+#menu_area {
+    height: 15px;
+    padding: 5px 5px 0 5px;
+    -webkit-app-region: drag;
+}
+
+#content_area {
+	padding: 5px 0 5px 0;
+}
+
+.item {
+    margin: 5px 0 5px 0;
+    padding: 10px;
+    background-color: white;
+}
+
+.item_parent {
+	
+}
+
+#refresh_button:hover {
+    cursor: pointer;
+}
+
+.link:hover {
+	cursor: pointer;
+}
